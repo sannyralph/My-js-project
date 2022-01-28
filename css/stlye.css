@@ -2,3 +2,17 @@
 body {
   background: white;
 }
+
+.pokemon-header {
+  font-size: 40px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.pokemonList, p{
+  max-width: auto;
+  margin: 40px 80px;
+  text-align: left;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
