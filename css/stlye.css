@@ -9,10 +9,31 @@ body {
   text-align: center;
 }
 
-.pokemonList, p{
-  max-width: auto;
-  margin: 40px 80px;
-  text-align: left;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+li {
+  display: grid;
+  grid-gap: 5px;
+  margin: 5px;
+  list-style-type: none;
+
+}
+
+
+
+.button-class {
+  background-color: #4caf50; /* Green */
+  border-radius: 13px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #4caf50;
+
 }
